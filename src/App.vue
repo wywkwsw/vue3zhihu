@@ -1,11 +1,22 @@
 <template>
-  <div id="nav">
+  <!-- <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
-  <router-view/>
-</template>
+  <router-view/> -->
+  <div class="container">
 
+  </div>
+</template>
+<script lang="ts">
+import {defineComponent} from 'vue'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import ColumnList ,{ColumnProps} from '../src/components/ColumnList.vue'
+const testDate:ColumnProps[] = []
+export default {
+  
+}
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -17,7 +28,6 @@
 
 #nav {
   padding: 30px;
-
   a {
     font-weight: bold;
     color: #2c3e50;
