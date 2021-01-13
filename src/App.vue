@@ -7,8 +7,8 @@
 <script lang="ts">
 import {defineComponent} from 'vue'
 import "bootstrap/dist/css/bootstrap.min.css"
-import ColumnList,{ColumProps} from "./components/ColumnList.vue"
-const testDate:ColumProps[] = [
+import ColumnList,{ColumnProps} from "./components/ColumnList.vue"
+const testDate:ColumnProps[] = [
   {
     id:1,
     title:"test1的专栏",
